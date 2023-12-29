@@ -337,3 +337,18 @@ footer{
         font-size: 1.5rem; /* Adjust subheading size for smaller screens */
     }
 }
+@media screen and (max-width: 768px) {
+    #home::before {
+        background-size: cover; /* Adjust background size for smaller screens */
+        height: 400px; /* Adjust height for smaller screens */
+        opacity: 0.8; /* Adjust opacity if needed */
+    }
+}
+
+/* For even smaller devices like mobile phones */
+@media screen and (max-width: 480px) {
+    #home::before {
+        height: 300px; /* Adjust height for smaller screens */
+        opacity: 0.7; /* Adjust opacity if needed */
+    }
+}
