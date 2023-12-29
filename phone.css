@@ -1,22 +1,72 @@
 /* navigation */
 
 /* home section */
-#home{
+/* #home{
 
-}
+} */
 
 
 /* services section */
-#services{
+/* #services{
     flex-direction: column;
 }
 
 #services .box{
 
-}
+} */
 
 /* client section */
 
 /* contact us */
 
 /* footer section */
+
+
+
+
+
+
+/* Your existing styles remain unchanged */
+
+/* Media Queries for Responsiveness */
+
+/* For smaller devices */
+@media screen and (max-width: 768px) {
+    #navbar ul {
+        padding-left: 0; /* Adjust padding for smaller screens */
+        justify-content: center; /* Center the navbar items */
+    }
+
+    #navbar ul li {
+        margin: 10px; /* Add margin between navbar items */
+    }
+
+    #home {
+        padding: 20px; /* Adjust padding for smaller screens */
+    }
+
+    /* Adjust other sections, boxes, and elements as needed */
+}
+
+/* For even smaller devices like mobile phones */
+@media screen and (max-width: 480px) {
+    #navbar {
+        flex-direction: column; /* Display navbar items vertically */
+        align-items: center; /* Center align navbar items */
+    }
+
+    #navbar ul {
+        padding-left: 0; /* Adjust padding for smaller screens */
+        justify-content: center; /* Center the navbar items */
+    }
+
+    #navbar ul li {
+        margin: 10px; /* Add margin between navbar items */
+    }
+
+    #home {
+        padding: 10px; /* Adjust padding for smaller screens */
+    }
+
+    /* Adjust other sections, boxes, and elements as needed */
+}
